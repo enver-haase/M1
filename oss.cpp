@@ -696,7 +696,7 @@ void m1sdr_Exit(void)
 
 	case 1:	// ALSA
 //		printf("ALSA kill handle %x\n", pHandle);
-		if (pHandle > 0)
+		if (pHandle != 0)
 		{
 			snd_pcm_close(pHandle);
 		}
