@@ -167,7 +167,7 @@ static int rom_loadrom(RomEntryT *entry, unzFile zipArc, int region)
 	int i, skip, length, gsize;
 	struct sha1_ctx sha1ctx;
 	UINT8 sha1_bin[20];
-	char sha1_txt[41];
+	char sha1_txt[42];
 	UINT32 *psha;
 
 //	printf("loading ROM %s of length %ld at offset %ld of region %d (zip %x)\n", entry->name, entry->length, entry->loadadr, region, (int)zipArc);
@@ -357,7 +357,7 @@ int rom_loadgame(void)
  	unzFile ourRom, parentRom, parentParent;
 	int	must_have_parent = 0;
 	const struct chd_header *chd_hdr;
-	char sha1_txt[41], md5_txt[33];
+	char sha1_txt[42], md5_txt[33];
 	UINT32 *psha;
 
 	// reset disk counter

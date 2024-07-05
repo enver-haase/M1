@@ -1180,9 +1180,9 @@
 		<manufacturer>Midway</manufacturer>
 		<m1data default="1" stop="0" min="1" max="255" subtype="1"/>
 		<region type="cpu1" size="196608">
-			<rom name="u4_snd.rom" size="32768" crc="6a48b588" sha1="c58dbfd920c279d7b9d2de8558d73c687b29ce9c " offset="0"/>
+			<rom name="u4_snd.rom" size="32768" crc="6a48b588" sha1="c58dbfd920c279d7b9d2de8558d73c687b29ce9c" offset="0"/>
 			<rom name="u19_snd.rom" size="32768" crc="1387467c" sha1="8b3dd6c2fc94cfebc1879795532c651cda202846" offset="10000"/>
-			<rom name="u20_snd.rom" size="32768" crc="d5a6a773" sha1="30807e03655d2249c801007350bfb228a2e8a0a4 " offset="20000"/>
+			<rom name="u20_snd.rom" size="32768" crc="d5a6a773" sha1="30807e03655d2249c801007350bfb228a2e8a0a4" offset="20000"/>
 		</region>
 	</game>
 	<game name="aurail" board="System 16 (sound type 3)">
